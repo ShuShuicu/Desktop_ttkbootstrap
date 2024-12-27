@@ -130,9 +130,9 @@ except:
 try:
     URL = config['account']['url']
     if URL == "":
-        URL = "http://127.0.0.1:5212"
+        URL = "https://cloud.miomoe.cn"
 except:
-    URL = "http://127.0.0.1:5212"
+    URL = "https://cloud.miomoe.cn"
 
 # 设置配置文件中的字体，没有则默认使用思源黑体，如果系统未安装思源黑体则使用默认字体
 try:
